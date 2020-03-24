@@ -1,7 +1,7 @@
 
 
 
-function clockWork(){
+function clockWork(){// created an object with different variables
     let date = new Date ();
     let hour = date.getHours();
     let min = date.getMinutes ();
@@ -15,11 +15,11 @@ function clockWork(){
 
     let myInterval = setInterval(()=>{
         clockWork()
-    }, 1000)
+    }, 1000)// function is called every second
 
     $('#myClock').html(time)
 
-}clockWork() ;
+}clockWork() ; // initiates the process
 
 
 
